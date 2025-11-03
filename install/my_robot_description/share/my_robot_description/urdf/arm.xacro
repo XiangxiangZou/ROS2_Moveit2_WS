@@ -24,6 +24,7 @@
     <origin xyz="0.0 0.0 0.1" rpy="0.0 0.0 0.0"/>
     <axis xyz="0.0 0.0 1.0"/>
     <limit lower="-3.14" upper="3.14" effort="1000.0" velocity="1.0"/>
+    <safety_controller k_position="100.0" k_velocity="10.0" soft_lower_limit="-3.14" soft_upper_limit="3.14"/>
   </joint>
 
   <link name="shoulder_link">
@@ -48,6 +49,7 @@
     <origin xyz="0.0 0.0 0.5" rpy="0.0 0.0 0.0"/>
     <axis xyz="0.0 1.0 0.0"/>
     <limit lower="0" upper="2.5" effort="1000.0" velocity="1.0"/>
+    <safety_controller k_position="100.0" k_velocity="10.0" soft_lower_limit="0" soft_upper_limit="2.5"/>
   </joint>
 
   <link name="arm_link">
@@ -72,6 +74,7 @@
     <origin xyz="0.0 0.0 0.6" rpy="0.0 0.0 0.0"/>
     <axis xyz="0.0 1.0 0.0"/>
     <limit lower="0" upper="2.5" effort="1000.0" velocity="1.0"/>
+    <safety_controller k_position="100.0" k_velocity="10.0" soft_lower_limit="0" soft_upper_limit="2.5"/>
   </joint>
 
   <link name="elbow_link">
@@ -96,6 +99,7 @@
     <origin xyz="0.0 0.0 0.1" rpy="0.0 0.0 0.0"/>
     <axis xyz="0.0 0.0 1.0"/>
     <limit lower="-3.14" upper="3.14" effort="1000.0" velocity="1.0"/>
+    <safety_controller k_position="100.0" k_velocity="10.0" soft_lower_limit="-3.14" soft_upper_limit="3.14"/>
   </joint>
 
   <link name="forearm_link">
@@ -120,6 +124,7 @@
     <origin xyz="0.0 0.0 0.5" rpy="0.0 0.0 0.0"/>
     <axis xyz="0.0 1.0 0.0"/>
     <limit lower="0" upper="2.5" effort="1000.0" velocity="1.0"/>
+    <safety_controller k_position="100.0" k_velocity="10.0" soft_lower_limit="0" soft_upper_limit="2.5"/>
   </joint>
 
   <link name="wrist_link">
@@ -143,6 +148,8 @@
     <child link="hand_link"/>
     <origin xyz="0.0 0.0 0.05" rpy="0.0 0.0 0.0"/>
     <axis xyz="0.0 0.0 1.0"/>
+    <limit lower="-3.14" upper="3.14" effort="1000.0" velocity="1.0"/>
+    <safety_controller k_position="100.0" k_velocity="10.0" soft_lower_limit="-3.14" soft_upper_limit="3.14"/>
   </joint>
 
   <link name="hand_link">
