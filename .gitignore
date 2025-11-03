@@ -1,0 +1,11 @@
+# 忽略 VS Code 配置
+.vscode/
+
+# 忽略 Python 虚拟环境
+venv/
+__pycache__/
+*.pyc
+
+# 忽略日志文件
+logs/
+*.log
