@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "my_robot_moveit_config")
 set(my_robot_moveit_config_VERSION "0.3.0")
-set(my_robot_moveit_config_MAINTAINER "todo <todo@todo.com>")
+set(my_robot_moveit_config_MAINTAINER "XiangxiangZou <xx_zou@qq.com>")
 set(my_robot_moveit_config_BUILD_DEPENDS )
 set(my_robot_moveit_config_BUILDTOOL_DEPENDS "ament_cmake")
 set(my_robot_moveit_config_BUILD_EXPORT_DEPENDS )

@@ -1,13 +1,13 @@
 moveit_setup_assistant_config:
   urdf:
     package: my_robot_description
-    relative_path: urdf/my_robot.urdf.xacro
+    relative_path: urdf/my_robot_urdf.xacro
   srdf:
     relative_path: config/my_robot.srdf
   package_settings:
-    author_name: todo
-    author_email: todo@todo.com
-    generated_timestamp: 1754045536
+    author_name: XiangxiangZou
+    author_email: xx_zou@qq.com
+    generated_timestamp: 1762249020
   control_xacro:
     command:
       - position
