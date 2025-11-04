@@ -37,7 +37,7 @@
     </visual>
     <collision>
       <geometry>
-        <cylinder length="0.5" radius="0.1"/>
+        <box size="0.2 0.2 0.5"/>
       </geometry>
       <origin xyz="0.0 0.0 0.25" rpy="0.0 0.0 0.0"/>
     </collision>
@@ -62,7 +62,7 @@
     </visual>
     <collision>
       <geometry>
-        <cylinder length="0.6" radius="0.05"/>
+        <box size="0.1 0.1 0.6"/>
       </geometry>
       <origin xyz="0.0 0.0 0.3" rpy="0.0 0.0 0.0"/>
     </collision>
@@ -87,7 +87,7 @@
     </visual>
     <collision>
       <geometry>
-        <cylinder length="0.1" radius="0.05"/>
+        <box size="0.1 0.1 0.1"/>
       </geometry>
       <origin xyz="0.0 0.0 0.05" rpy="0.0 0.0 0.0"/>
     </collision>
@@ -112,7 +112,7 @@
     </visual>
     <collision>
       <geometry>
-        <cylinder length="0.5" radius="0.05"/>
+        <box size="0.1 0.1 0.5"/>
       </geometry>
       <origin xyz="0.0 0.0 0.25" rpy="0.0 0.0 0.0"/>
     </collision>
