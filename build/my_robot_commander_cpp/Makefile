@@ -210,6 +210,43 @@ robot_moveit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_moveit.dir/build.make CMakeFiles/robot_moveit.dir/build
 .PHONY : robot_moveit/fast
 
+#=============================================================================
+# Target rules for targets named robot_commander
+
+# Build rule for target.
+robot_commander: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_commander
+.PHONY : robot_commander
+
+# fast build rule for target.
+robot_commander/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_commander.dir/build.make CMakeFiles/robot_commander.dir/build
+.PHONY : robot_commander/fast
+
+src/robot_commander.o: src/robot_commander.cpp.o
+.PHONY : src/robot_commander.o
+
+# target to build an object file
+src/robot_commander.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_commander.dir/build.make CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o
+.PHONY : src/robot_commander.cpp.o
+
+src/robot_commander.i: src/robot_commander.cpp.i
+.PHONY : src/robot_commander.i
+
+# target to preprocess a source file
+src/robot_commander.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_commander.dir/build.make CMakeFiles/robot_commander.dir/src/robot_commander.cpp.i
+.PHONY : src/robot_commander.cpp.i
+
+src/robot_commander.s: src/robot_commander.cpp.s
+.PHONY : src/robot_commander.s
+
+# target to generate assembly for a file
+src/robot_commander.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_commander.dir/build.make CMakeFiles/robot_commander.dir/src/robot_commander.cpp.s
+.PHONY : src/robot_commander.cpp.s
+
 src/robot_moveit.o: src/robot_moveit.cpp.o
 .PHONY : src/robot_moveit.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... my_robot_commander_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... robot_commander"
 	@echo "... robot_moveit"
+	@echo "... src/robot_commander.o"
+	@echo "... src/robot_commander.i"
+	@echo "... src/robot_commander.s"
 	@echo "... src/robot_moveit.o"
 	@echo "... src/robot_moveit.i"
 	@echo "... src/robot_moveit.s"

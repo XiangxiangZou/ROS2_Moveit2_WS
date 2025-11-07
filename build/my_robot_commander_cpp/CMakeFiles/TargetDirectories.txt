@@ -1,6 +1,7 @@
 /home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles/uninstall.dir
 /home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles/my_robot_commander_cpp_uninstall.dir
 /home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles/robot_moveit.dir
+/home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles/robot_commander.dir
 /home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles/test.dir
 /home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles/edit_cache.dir
 /home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles/rebuild_cache.dir

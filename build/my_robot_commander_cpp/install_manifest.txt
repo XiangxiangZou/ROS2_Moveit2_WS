@@ -1,4 +1,5 @@
 /home/zouxx/MyData/ROS2_Moveit2_WS/install/my_robot_commander_cpp/lib/my_robot_commander_cpp/robot_moveit
+/home/zouxx/MyData/ROS2_Moveit2_WS/install/my_robot_commander_cpp/lib/my_robot_commander_cpp/robot_commander
 /home/zouxx/MyData/ROS2_Moveit2_WS/install/my_robot_commander_cpp/share/ament_index/resource_index/package_run_dependencies/my_robot_commander_cpp
 /home/zouxx/MyData/ROS2_Moveit2_WS/install/my_robot_commander_cpp/share/ament_index/resource_index/parent_prefix_path/my_robot_commander_cpp
 /home/zouxx/MyData/ROS2_Moveit2_WS/install/my_robot_commander_cpp/share/my_robot_commander_cpp/environment/ament_prefix_path.sh

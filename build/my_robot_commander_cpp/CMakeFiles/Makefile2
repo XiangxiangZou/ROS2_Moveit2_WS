@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_c
 
 # The main recursive "all" target.
 all: CMakeFiles/robot_moveit.dir/all
+all: CMakeFiles/robot_commander.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/my_robot_commander_cpp_uninstall.dir/clean
 clean: CMakeFiles/robot_moveit.dir/clean
+clean: CMakeFiles/robot_commander.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +137,7 @@ CMakeFiles/my_robot_commander_cpp_uninstall.dir/clean:
 CMakeFiles/robot_moveit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_moveit.dir/build.make CMakeFiles/robot_moveit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_moveit.dir/build.make CMakeFiles/robot_moveit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles --progress-num=1,2 "Built target robot_moveit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles --progress-num=3,4 "Built target robot_moveit"
 .PHONY : CMakeFiles/robot_moveit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +155,32 @@ robot_moveit: CMakeFiles/robot_moveit.dir/rule
 CMakeFiles/robot_moveit.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_moveit.dir/build.make CMakeFiles/robot_moveit.dir/clean
 .PHONY : CMakeFiles/robot_moveit.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/robot_commander.dir
+
+# All Build rule for target.
+CMakeFiles/robot_commander.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_commander.dir/build.make CMakeFiles/robot_commander.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_commander.dir/build.make CMakeFiles/robot_commander.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles --progress-num=1,2 "Built target robot_commander"
+.PHONY : CMakeFiles/robot_commander.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/robot_commander.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/robot_commander.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zouxx/MyData/ROS2_Moveit2_WS/build/my_robot_commander_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/robot_commander.dir/rule
+
+# Convenience name for target.
+robot_commander: CMakeFiles/robot_commander.dir/rule
+.PHONY : robot_commander
+
+# clean rule for target.
+CMakeFiles/robot_commander.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_commander.dir/build.make CMakeFiles/robot_commander.dir/clean
+.PHONY : CMakeFiles/robot_commander.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

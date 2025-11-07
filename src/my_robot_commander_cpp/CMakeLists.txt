@@ -9,12 +9,16 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
+find_package(example_interfaces REQUIRED)
 
 add_executable(robot_moveit src/robot_moveit.cpp)
 ament_target_dependencies(robot_moveit rclcpp moveit_ros_planning_interface)
 
+add_executable(robot_commander src/robot_commander.cpp)
+ament_target_dependencies(robot_commander rclcpp moveit_ros_planning_interface example_interfaces)
+
 install(TARGETS
-  robot_moveit
+  robot_moveit robot_commander
   DESTINATION lib/${PROJECT_NAME}
 )
 
