@@ -60,6 +60,15 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
   /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/bool__struct.hpp \
   /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/bool__traits.hpp \
   /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/bool__type_support.hpp \
+  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/float64_multi_array__builder.hpp \
+  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/float64_multi_array__struct.hpp \
+  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/float64_multi_array__traits.hpp \
+  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/float64_multi_array__type_support.hpp \
+  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/multi_array_dimension__struct.hpp \
+  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/multi_array_dimension__traits.hpp \
+  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/multi_array_layout__struct.hpp \
+  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/multi_array_layout__traits.hpp \
+  /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/float64_multi_array.hpp \
   /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
@@ -1686,11 +1695,21 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
 
-/opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h:
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
 
-/opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h:
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
-/usr/include/eigen3/Eigen/QR:
+/usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
+
+/usr/include/endian.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
+
+/usr/include/eigen3/Eigen/src/Core/Visitor.h:
+
+/usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
+
+/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
 
 /opt/ros/jazzy/include/rcutils/rcutils/types/hash_map.h:
 
@@ -1716,9 +1735,9 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:
 
-/opt/ros/jazzy/include/rmw/rmw/domain_id.h:
-
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/domain_id.h:
 
 /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp:
 
@@ -1735,10 +1754,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/typesupport_helpers.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/type_support_decl.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:
 
@@ -1767,8 +1782,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_options.hpp:
 
@@ -1844,12 +1857,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/c++/13/ostream:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:
-
-/opt/ros/jazzy/include/urdfdom_headers/urdf_world/types.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/event.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
@@ -1880,19 +1887,17 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/boost/config/compiler/gcc.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/create_subscription.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_service.hpp:
-
-/usr/include/endian.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics_state.hpp:
 
 /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/type_support_decl.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h:
 
@@ -1914,10 +1919,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_subscription.hpp:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
 /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
@@ -1925,10 +1926,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp:
 
 /opt/ros/jazzy/include/tf2/tf2/impl/convert.hpp:
-
-/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
 
@@ -2114,9 +2111,23 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/rcl/rcl/service_introspection.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h:
+/opt/ros/jazzy/include/rcl/rcl/publisher.h:
 
-/usr/include/c++/13/ext/concurrence.h:
+/usr/include/c++/13/bits/stl_tree.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h:
+
+/opt/ros/jazzy/include/rcl/rcl/macros.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_options__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
+
+/usr/include/c++/13/bits/hashtable_policy.h:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/action/execute_trajectory.hpp:
 
@@ -2137,6 +2148,24 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /usr/include/c++/13/tr1/bessel_function.tcc:
 
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/logging_rosout.h:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
+
+/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
+
+/opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/bool__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp:
 
@@ -2160,22 +2189,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/eigen3/Eigen/src/Core/StlIterators.h:
 
-/opt/ros/jazzy/include/moveit_core/moveit/robot_model/link_model.hpp:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/action/detail/execute_trajectory__traits.hpp:
-
-/usr/include/boost/integer_traits.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
-
-/opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.h:
-
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
 
 /usr/include/c++/13/bits/requires_hosted.h:
@@ -2187,6 +2200,10 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp:
 
 /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/log_level.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
 
@@ -2242,28 +2259,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
-/opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp:
-
-/usr/include/assert.h:
-
-/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp:
-
-/usr/include/boost/random/detail/config.hpp:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
 
 /opt/ros/jazzy/include/rcl_action/rcl_action/action_client.h:
@@ -2298,10 +2293,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
 
-/opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h:
-
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planner_interface_description__traits.hpp:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/action/detail/move_group__struct.hpp:
@@ -2310,15 +2301,25 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp:
 
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
-
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:
+
+/usr/include/assert.h:
+
+/opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp:
+
+/usr/include/c++/13/ext/aligned_buffer.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp:
 
@@ -2338,7 +2339,9 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/rmw/rmw/discovery_options.h:
 
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
@@ -2360,6 +2363,10 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/guard_condition.hpp:
@@ -2369,10 +2376,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/visibility_control.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/log_level.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
 
@@ -2386,13 +2389,47 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/c++/13/tr1/special_function_util.h:
 
-/opt/ros/jazzy/include/moveit_core/moveit/robot_model/prismatic_joint_model.hpp:
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp:
 
-/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
 
-/opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp:
+/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp:
+
+/usr/include/boost/random/detail/config.hpp:
+
+/usr/include/c++/13/bits/cpp_type_traits.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h:
+
+/opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/float64_multi_array__type_support.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp:
+
+/opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/float64_multi_array__traits.hpp:
+
+/usr/include/c++/13/bits/stl_list.h:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/create_subscription.hpp:
+
+/opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/float64_multi_array__builder.hpp:
+
+/usr/include/boost/random/detail/seed.hpp:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp:
 
@@ -2420,10 +2457,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp:
-
 /opt/ros/jazzy/include/rcl/rcl/event.h:
 
 /usr/include/boost/random/detail/generator_bits.hpp:
@@ -2436,11 +2469,9 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp:
 
-/opt/ros/jazzy/include/moveit_core/moveit/robot_model/planar_joint_model.hpp:
+/usr/include/c++/13/bits/nested_exception.h:
 
-/usr/include/c++/13/bits/charconv.h:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__builder.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_subscription.hpp:
 
 /usr/include/eigen3/Eigen/src/SVD/SVDBase.h:
 
@@ -2450,9 +2481,17 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
 
+/usr/include/c++/13/debug/debug.h:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
 /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp:
 
 /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h:
 
 /opt/ros/jazzy/include/rcl/rcl/context.h:
 
@@ -2466,28 +2505,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_options__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/macros.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
-
-/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
-
-/opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/bool__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
-
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp:
@@ -2496,9 +2513,21 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/urdfdom_headers/urdf_exception/exception.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h:
+/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:
+
+/opt/ros/jazzy/include/urdfdom_headers/urdf_world/types.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp:
+
+/opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/multi_array_layout__traits.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__traits.hpp:
+
+/usr/include/c++/13/cstdint:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp:
 
@@ -2508,21 +2537,9 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp:
 
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/grasp__struct.hpp:
+/opt/ros/jazzy/include/rcl/rcl/service.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_template.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
-
-/opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model_group.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/action/move_group.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h:
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/action/detail/execute_trajectory__struct.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp:
 
@@ -2566,21 +2583,11 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/action/detail/move_group__type_support.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/publisher.h:
-
-/usr/include/c++/13/bits/stl_tree.h:
-
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server.hpp:
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
-
-/opt/ros/jazzy/include/rmw/rmw/rmw.h:
-
-/usr/include/boost/type_traits/integral_constant.hpp:
-
-/home/zouxx/MyData/ROS2_Moveit2_WS/src/my_robot_commander_cpp/src/robot_commander.cpp:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp:
 
@@ -2599,6 +2606,10 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /usr/include/boost/random/detail/large_arithmetic.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
 /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/bool.hpp:
 
@@ -2708,11 +2719,15 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp:
 
+/opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/float64_multi_array.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp:
+
+/opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/multi_array_dimension__traits.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.hpp:
 
@@ -2721,6 +2736,58 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/bool__type_support.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
+
+/opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/node.h:
+
+/opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h:
+
+/usr/include/c++/13/ext/concurrence.h:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/grasp__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_template.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
+
+/opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model_group.hpp:
+
+/opt/ros/jazzy/include/moveit_core/moveit/robot_model/link_model.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/action/detail/execute_trajectory__traits.hpp:
+
+/usr/include/boost/integer_traits.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
+
+/opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp:
+
+/opt/ros/jazzy/include/moveit_core/moveit/robot_model/planar_joint_model.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/action/move_group.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/rmw.h:
+
+/home/zouxx/MyData/ROS2_Moveit2_WS/src/my_robot_commander_cpp/src/robot_commander.cpp:
+
+/usr/include/boost/type_traits/integral_constant.hpp:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__builder.hpp:
+
+/opt/ros/jazzy/include/moveit_core/moveit/robot_model/prismatic_joint_model.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
+
+/opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp:
 
 /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp:
 
@@ -2778,6 +2845,8 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
 
+/opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/multi_array_dimension__struct.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp:
@@ -2806,13 +2875,13 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/c++/13/stdexcept:
 
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
+
+/usr/include/boost/type_traits/is_same.hpp:
+
+/usr/include/c++/13/ext/string_conversions.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
@@ -2827,6 +2896,8 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /usr/include/c++/13/sstream:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
+
+/opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/multi_array_layout__struct.hpp:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp:
 
@@ -3014,10 +3085,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
-
 /usr/include/features.h:
 
 /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp:
@@ -3054,21 +3121,13 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/rcl/rcl/graph.h:
 
-/opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp:
+/opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h:
 
-/opt/ros/jazzy/include/rcl/rcl/logging_rosout.h:
+/usr/include/eigen3/Eigen/QR:
 
-/usr/include/c++/13/bits/hashtable_policy.h:
+/opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h:
-
-/opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/node.h:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/action/detail/execute_trajectory__struct.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/service.h:
+/opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h:
 
 /opt/ros/jazzy/include/rmw/rmw/error_handling.h:
 
@@ -3146,15 +3205,15 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/rmw/rmw/security_options.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:
-
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h:
 
-/opt/ros/jazzy/include/rmw/rmw/dynamic_message_type_support.h:
-
 /opt/ros/jazzy/include/rmw/rmw/features.h:
+
+/opt/ros/jazzy/include/rmw/rmw/dynamic_message_type_support.h:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
 
@@ -3446,16 +3505,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp:
 
-/usr/include/c++/13/bits/stl_list.h:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
-
-/usr/include/c++/13/debug/debug.h:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
-
 /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp:
 
 /usr/include/boost/integer_fwd.hpp:
@@ -3499,10 +3548,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /usr/include/boost/config/stdlib/libstdcpp3.hpp:
 
 /usr/include/boost/config/user.hpp:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__traits.hpp:
-
-/usr/include/c++/13/cstdint:
 
 /usr/include/boost/current_function.hpp:
 
@@ -3556,9 +3601,9 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/boost/random/detail/polynomial.hpp:
 
-/usr/include/boost/random/detail/ptr_helper.hpp:
+/opt/ros/jazzy/include/example_interfaces/example_interfaces/msg/detail/float64_multi_array__struct.hpp:
 
-/usr/include/boost/random/detail/seed.hpp:
+/usr/include/boost/random/detail/ptr_helper.hpp:
 
 /usr/include/boost/random/detail/uniform_int_float.hpp:
 
@@ -3612,19 +3657,15 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/c++/13/bits/codecvt.h:
 
-/usr/include/c++/13/ext/string_conversions.h:
-
-/usr/include/boost/type_traits/is_same.hpp:
-
 /usr/include/boost/type_traits/make_unsigned.hpp:
 
 /usr/include/boost/type_traits/remove_cv.hpp:
 
 /usr/include/boost/version.hpp:
 
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/action/detail/move_group__traits.hpp:
-
 /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/action/detail/move_group__traits.hpp:
 
 /usr/include/c++/13/algorithm:
 
@@ -3659,14 +3700,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /usr/include/c++/13/bits/deque.tcc:
 
 /usr/include/c++/13/bits/exception.h:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__builder.hpp:
 
@@ -3756,8 +3789,6 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/c++/13/bits/std_thread.h:
 
-/usr/include/eigen3/Eigen/src/Core/Visitor.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp:
 
 /usr/include/c++/13/bits/stl_algo.h:
@@ -3767,6 +3798,10 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /usr/include/string.h:
 
 /usr/include/c++/13/bits/stl_deque.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
+/usr/include/c++/13/bits/stl_function.h:
 
 /usr/include/c++/13/bits/stl_multimap.h:
 
@@ -3998,9 +4033,9 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 
 /usr/include/eigen3/Eigen/src/Core/DenseBase.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:
-
 /usr/include/c++/13/bits/cxxabi_init_exception.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/EigenBase.h:
 
@@ -4059,11 +4094,3 @@ CMakeFiles/robot_commander.dir/src/robot_commander.cpp.o: /home/zouxx/MyData/ROS
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Transpositions.h:
-
-/usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:

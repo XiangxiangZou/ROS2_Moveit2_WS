@@ -1,0 +1,6 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/zouxx/MyData/ROS2_Moveit2_WS/src/my_robot_interfaces:msg/PoseCmd.msg"
+  ]
+}

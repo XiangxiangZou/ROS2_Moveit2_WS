@@ -2,10 +2,12 @@
 # include <moveit/move_group_interface/move_group_interface.hpp>
 # include <example_interfaces/msg/bool.hpp>
 # include <example_interfaces/msg/float64_multi_array.hpp>
+# include <my_robot_interfaces/msg/pose_cmd.hpp>
 
 using MoveGroupInterface = moveit::planning_interface::MoveGroupInterface;
 using Bool = example_interfaces::msg::Bool;
 using Float64MultiArray = example_interfaces::msg::Float64MultiArray; 
+using PoseCmd = my_robot_interfaces::msg::PoseCmd;
 using namespace std::placeholders;
 
 
@@ -26,6 +28,9 @@ public:
 
     joint_cmd_sub_ = node_->create_subscription<Float64MultiArray>(
       "joint_cmd", 10, std::bind(&RobotCommander::JointCmdCallback, this, _1));
+
+    pose_cmd_sub_ = node_->create_subscription<PoseCmd>(
+      "pose_cmd", 10, std::bind(&RobotCommander::PoseCmdCallback, this, _1));
 
 
   }
@@ -129,12 +134,18 @@ private:
     goToJointTarget(joint_target);
   }
 
+  void PoseCmdCallback(const PoseCmd &msg)
+  {
+    goToPoseTarget(msg.x, msg.y, msg.z, msg.roll, msg.pitch, msg.yaw, msg.cartesian_path);
+  }
+
   std::shared_ptr<rclcpp::Node> node_;
   std::shared_ptr<MoveGroupInterface> arm_group_;
   std::shared_ptr<MoveGroupInterface> gripper_group_;
 
   rclcpp::Subscription<Bool>::SharedPtr open_gripper_sub_;
   rclcpp::Subscription<Float64MultiArray>::SharedPtr joint_cmd_sub_;
+  rclcpp::Subscription<PoseCmd>::SharedPtr pose_cmd_sub_;
   
 }; 
 
