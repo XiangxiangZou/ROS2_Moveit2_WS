@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "my_robot_interfaces/msg/detail/pose_cmd__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "my_robot_interfaces/msg/detail/pose_cmd__functions.h"
 #include "my_robot_interfaces/msg/detail/pose_cmd__type_support.h"
 #include "my_robot_interfaces/msg/detail/pose_cmd__struct.h"
 
